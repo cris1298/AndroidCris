@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         //EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        Button btnShowMessage = findViewById(R.id.button);
-        TextView tvMessage = findViewById(R.id.tvMessage);
+//        Button btnShowMessage = findViewById(R.id.button);
+//        TextView tvMessage = findViewById(R.id.tvMessage);
 
 //        btnTvMessage.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -35,16 +35,16 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         //lambda expression
-        btnShowMessage.setOnClickListener(v -> {
-            counter++;
-            Log.i("MAIN_APP", "Clic en boton!!!"+ counter);
-            tvMessage.setText("Clic número: " + counter);
-//            tvMessage.setText("Hola Clase 2025-");
-
-            //Iniciar nueva actividad
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
-        });
+//        btnShowMessage.setOnClickListener(v -> {
+//            counter++;
+//            Log.i("MAIN_APP", "Clic en boton!!!"+ counter);
+//            tvMessage.setText("Clic número: " + counter);
+////            tvMessage.setText("Hola Clase 2025-");
+//
+//            //Iniciar nueva actividad
+//                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+//                startActivity(intent);
+//        });
 
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
