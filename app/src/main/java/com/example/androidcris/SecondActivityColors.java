@@ -22,7 +22,10 @@ public class SecondActivityColors extends AppCompatActivity {
         colors.add(new ColorItem("Verde", Color.GREEN));
         colors.add(new ColorItem("Amarillo", Color.YELLOW));
         colors.add(new ColorItem("Magenta", Color.MAGENTA));
-        colors.add(new ColorItem("CYAN", Color.CYAN));
+        colors.add(new ColorItem("Cyan", Color.CYAN));
+        colors.add(new ColorItem("Gris", Color.GRAY));
+        colors.add(new ColorItem("Blanco", Color.WHITE));
+        colors.add(new ColorItem("Negro", Color.BLACK));
 
         ColorAdapter adapter = new ColorAdapter(this, colors);
         ListView listView = findViewById(R.id.listViewColores);
